@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "train", "train\train.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Train2", "Train2\Train2.csproj", "{84341641-C5CF-4990-A153-DDC33B9BCE6F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayTrain", "ArrayTrain\ArrayTrain.csproj", "{FECC1C3F-9C8E-472A-AE6E-D8DD0B824878}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{84341641-C5CF-4990-A153-DDC33B9BCE6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{84341641-C5CF-4990-A153-DDC33B9BCE6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{84341641-C5CF-4990-A153-DDC33B9BCE6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FECC1C3F-9C8E-472A-AE6E-D8DD0B824878}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FECC1C3F-9C8E-472A-AE6E-D8DD0B824878}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FECC1C3F-9C8E-472A-AE6E-D8DD0B824878}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FECC1C3F-9C8E-472A-AE6E-D8DD0B824878}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

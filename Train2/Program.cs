@@ -10,10 +10,13 @@ namespace Train2
     {
         static void Main(string[] args)
         {
-            string[] months = { "январь", "февраль", "март" };
-            string[] tiles = { "Агат", "Оникс", "Малахит" };
-            string[] distributors = { "Мир керамики", "Дом плитки" };
-            string[] countries = { "Италия", "Испания" };
+            string[] months, tiles, distributors, countries;
+            {
+                months = new string[] { "январь", "февраль", "март" };
+                tiles = new string[] { "Агат", "Оникс", "Малахит" };
+                distributors = new string[] { "Мир керамики", "Дом плитки" };
+                countries = new string[] { "Италия", "Испания" };
+            }
             decimal[,,,] array = new decimal[countries.Length, distributors.Length, tiles.Length, months.Length];
 
             for (int w = 0; w < array.GetLength(0); w++)
